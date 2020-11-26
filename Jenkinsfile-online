@@ -11,11 +11,11 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-tx'
-        GITHUB_CREDENTIAL_ID = 'gitee'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'kubesphere-demo.tencentcloudcr.com'
         DOCKERHUB_NAMESPACE = 'nirvana1234'
-        GITHUB_ACCOUNT = 'nirvana4'
+        GITHUB_ACCOUNT = 'nirvana-for-ever'
         APP_NAME = 'devops-java-sample'
     }
 
